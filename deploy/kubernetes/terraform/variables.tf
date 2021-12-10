@@ -31,12 +31,12 @@ variable "key_name" {
 
 variable "master_instance_type" {
   description = "The instance type to use for the Kubernetes master."
-  default     = "m3.large"
+  default     = "t2.micro"
 }
 
 variable "node_instance_type" {
   description = "The instance type to use for the Kubernetes nodes."
-  default     = "m3.large"
+  default     = "t2.micro"
 }
 
 variable "node_count" {
